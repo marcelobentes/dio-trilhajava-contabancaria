@@ -8,7 +8,7 @@ public class ContaTerminal {
         String nomeCliente;
         double saldo;
 
-        Scanner entrada = new Scanner(System.in);
+        Scanner 32entrada = new Scanner(System.in);
 
         System.out.println("Por favor, digite o número da Agência: ");
         agencia = entrada.next();
@@ -18,6 +18,8 @@ public class ContaTerminal {
         nomeCliente = entrada.next();
         System.out.println("Por informar valor de deposito: ");
         saldo = entrada.nextDouble();
+
+        System.out.println("Olá "+nomeCliente+", obrigado por criar uma conta em nosso banco, sua agência é "+agencia+", conta "+numero+"e seu saldo R$ "+saldo+" ja esta disponivel para saque.");
 
 
     }
